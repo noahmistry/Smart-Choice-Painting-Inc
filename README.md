@@ -1,2 +1,7 @@
 # Smart-Choice-Painting-Inc
-Smart Choice Painting Surrey BC
+
+Official Website for Smart 
+Choice Painting Inc
+
+Surrey, BC
+
