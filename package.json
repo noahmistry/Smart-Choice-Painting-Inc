@@ -1,0 +1,50 @@
+{
+ "name": "smart-choice-painting-inc",
+ "version": "1.0.0",
+ "description": "Official Website for Smart  Choice Painting Inc",
+ "main": "app.js",
+ "scripts": {},
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/noahmistry/Smart-Choice-Painting-Inc.git"
+ },
+ "author": "Noah Mistry",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/noahmistry/Smart-Choice-Painting-Inc/issues"
+ },
+ "devDependencies": {
+  "@babel/core": "^7.9.6",
+  "@babel/preset-env": "^7.9.6",
+  "browser-sync": "^2.26.7",
+  "gulp": "^4.0.2",
+  "gulp-autoprefixer": "^6.1.0",
+  "gulp-babel": "^8.0.0",
+  "gulp-concat": "^2.6.1",
+  "gulp-connect-php": "^1.0.3",
+  "gulp-htmlmin": "^5.0.1",
+  "gulp-imagemin": "^5.0.3",
+  "gulp-nunjucks-render": "^2.2.3",
+  "gulp-sass": "^4.0.2",
+  "gulp-uglify": "^3.0.2",
+  "gulp-watch": "^5.0.1",
+  "lodash": ">=4.17.13",
+  "lodash.mergewith": ">=4.6.2",
+  "mixin-deep": "^2.0.1",
+  "node-sass": "^4.13.1",
+  "set-value": "^3.0.1"
+ },
+ "homepage": "https://github.com/noahmistry/Smart-Choice-Painting-Inc#readme",
+ "dependencies": {
+  "animate.css": "^3.7.2",
+  "lg-autoplay": "^1.0.4",
+  "lg-fullscreen": "^1.1.0",
+  "lg-hash": "^1.0.4",
+  "lg-pager": "^1.0.2",
+  "lg-share": "^1.1.0",
+  "lg-thumbnail": "^1.1.0",
+  "lg-video": "^1.2.2",
+  "lg-zoom": "^1.1.0",
+  "lightgallery": "^1.6.14"
+ }
+}

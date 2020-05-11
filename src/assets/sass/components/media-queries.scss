@@ -1,0 +1,374 @@
+/*------------------*
+# Media Queries
+*------------------*/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 320px) and (max-width:590px) {
+    body,html {
+        overflow-x: hidden !important;
+    }
+    .navbar-collapse {
+        background: $dark-green-var;
+    }
+    .nav-link {
+        background: $dark-green-var !important;
+        color: $gold-var !important;
+    }
+    .btn-color {
+        font-size: 10px;
+        max-width: 50%;
+        padding: .5rem 1rem !important;
+        margin-left: 0 auto !important;
+        margin-top: 10px;
+        line-height: 16px;
+        margin-left: 26%;
+    }
+    .slider-heading {
+        font-size: 24px !important;
+        text-align: center;
+        line-height: 30px;
+    }
+    .carousel-caption {
+        bottom: 10px;
+        p {
+            display: none;
+        }
+        .pb-icon {
+            display: none;
+        }
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .job-cards {
+        .col-12 {
+            padding-left:0 !important;
+            padding-right:0 !important;
+        }
+        .card-group{
+            .card {
+                margin-bottom:0px
+            }
+            .card-body {
+                padding: 0;
+            }
+            .card-title {
+                font-size: 26px !important;
+                padding-left: 0;
+            }
+            .card-text {
+                margin-left: 36%;
+                text-align: right;
+                padding-top: .5rem;
+            }
+        }
+    }
+    
+    #jumbo-bg {
+        margin-bottom: 1rem;
+        .display-4 {
+            font-size: 1.5rem;
+            max-width: 50%;
+        }
+        .fa-calendar-check,
+        .fa-swatchbook,
+        .fa-leaf {
+            &:before{
+                font-size: 30px;
+            }
+        }
+        .icons-text {
+            font-size: 16px;
+        }
+    }
+    .chooseUs {
+        .p-4 {
+            display: none;
+        }
+        .display-4 {
+            font-size: 26px !important;
+        .lead {
+            font-size: 16px;
+        } 
+    }
+}
+#light-gallery {
+    .display-4 {
+        font-size: 26px !important;
+    }
+}
+.get-quote {
+    .display-4 {
+        font-size: 26px;
+        &:after {
+            border-bottom: none;
+        }
+    }
+    img {
+        display: none;
+    }
+    #bg-blue {
+        max-width: 100% !important;
+    }
+    .col-6 {
+        flex:100% !important;
+    }
+    .col-md-6,
+    .col-md-12 {
+        max-width: 80%;
+        margin-left: 12%;
+    }
+    .btn {
+        font-size: 10px;
+        max-width: 100%;
+        padding: 10px 3rem  !important;
+        margin-left: 0 auto !important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 16px;
+        margin-left: 30%;
+    }
+}
+#footer {
+    .p-4 {
+        display: none;
+    }
+    .lead {
+        text-align: center;
+    }
+    .display-4 {
+        text-align: center;
+    }
+    .display-4:first-of-type {
+        font-size: 26px !important;
+    }
+    .social {
+        .display-4 {
+            font-size: 26px !important;
+        }
+        padding: .5rem!important;
+    }
+    ul {
+        li {
+            margin-left: -5px;
+        }
+    }
+    .fa-instagram,
+        .fa-twitter,
+        .fa-facebook-f {
+            &:before{
+                font-size: 26px !important;
+            }
+        }
+}
+}
+
+// 480 x 320 (Mobile Landscape) //
+@media (min-width: 480px) and (max-height:320px) {
+    .slider-heading {
+        font-size: 32px !important;
+        line-height: 2 !important;
+    }
+    .btn-color {
+        margin-left: 34%;
+    }
+    .card-text {
+        text-align: center !important;
+        margin-left: 21% !important;
+    }
+    .get-quote {
+        .btn {
+            margin-left: 36% !important;
+        }
+    }
+    #footer {
+        ul {
+            li {
+                margin-left: 9% !important;
+            }
+        }
+    }
+    
+}
+
+// (600 x 800 ) Small Tablet Portrait
+@media (min-width:600px) and (max-height: 800px) {
+    body,
+    html {
+        overflow-x: hidden !important;
+    }
+    .btn-color {
+        font-size: 12px;
+        max-width: 50%;
+        padding: .4rem .8rem !important;
+        margin-left: 0 auto !important;
+        margin-top: 10px;
+        line-height: 16px;
+        margin-left: 0;
+    }
+    .text-left {
+        text-align: center !important;
+    }
+    .slider-heading {
+        font-size: 26px !important;
+    }
+    .job-cards {
+        .col-12 {
+            padding-left:0 !important;
+            padding-right:0 !important;
+        }
+    }
+    .get-quote {
+        img {
+            display: none !important;
+        }
+        .col-6 {
+            flex: 100%;
+            max-width: 100% !important;
+        }
+        .btn {
+            margin-left: 32%;
+        }
+    }
+    #bg-blue {
+        padding-bottom: 5%;
+    }
+    #footer {
+        .social {
+            .display-4 {
+                text-align: center !important;
+            }
+            ul {
+                li {
+                    margin-left: 12% !important;
+                }
+            }
+    }
+}
+}
+
+// (800 x 600 ) Small Tablet Portrait
+@media (min-width: 800px) and (max-height:600px){
+    .get-quote {
+        #bg-blue {
+            .display-4 {
+                max-width: 90%;
+            }
+            .btn {
+                margin-left: 40%;
+                margin-top: 30px !important;
+            }
+        }
+    }
+    #footer {
+        .social {
+            ul {
+                li {
+                    margin-left: 15% !important;
+                }
+            }
+        }
+    }
+}
+
+
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 766px) and (max-width:1024px) { 
+    body, html {
+        overflow-x: hidden;
+    }
+    .slider-heading {
+        font-size: 40px !important;
+        text-align: center;
+        line-height: 2;
+    }
+    .text-left {
+        text-align: center !important;
+    }
+    .btn-color {
+        line-height: 24px !important;
+        padding: .5rem 2rem !important;
+        margin-bottom: 10px;
+    }
+    .card-group {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .card-title {
+        font-size: 33px !important;
+        padding-left: 0 !important;
+    }
+    .card-text {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+    #jumbo-bg,
+    #bg-green,
+    #light-gallery {
+        .display-4 {
+            font-size: 33px !important;
+        }
+    }
+    .get-quote {
+        .display-4 {
+            font-size: 33px !important;
+            padding: 1rem 0 0 4rem !important;
+        }
+        .btn {
+            font-size: 10px;
+            max-width: 100%;
+            padding: 10px 3rem  !important;
+            margin-left: 0 auto !important;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            line-height: 16px;
+            margin-left: 32%;
+        }
+        img {
+            height: 356px;
+        }
+        .form-control {
+            font-size: 12px !important;
+        }
+    }
+    #footer {
+        .social {
+            .display-4 {
+                margin-top: 28px;
+                text-align: center;
+            }
+            ul {
+                li {
+                    margin-left: 12%;
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 1024px) and (max-width:1400px) { 
+    #footer {
+        .social {
+            .display-4 {
+                text-align: center;
+            }
+            ul {
+                li {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1400px) and (max-width:2559px) { 
+    .carousel-caption {
+        bottom: 160px;
+    }
+    .text-left {
+        text-align: center !important;
+    }
+
+}
