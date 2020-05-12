@@ -152,14 +152,6 @@ $dark-green-var:#142733;
         color: $teal-var;
         word-wrap: break-word !important;
         max-width: 50%;
-        &::after {
-            content: "";
-            display: block;
-            margin: 0 auto;
-            width: 50%;
-            padding-top: 20px;
-            border-bottom: 4px solid $gold-var;
-        }
     }
 }
 
