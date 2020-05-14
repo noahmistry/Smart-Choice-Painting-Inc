@@ -36,7 +36,7 @@
  },
  "homepage": "https://github.com/noahmistry/Smart-Choice-Painting-Inc#readme",
  "dependencies": {
-  "animate.css": "^3.7.2",
+  "animate.css": "^4.1.0",
   "lg-autoplay": "^1.0.4",
   "lg-fullscreen": "^1.1.0",
   "lg-hash": "^1.0.4",
